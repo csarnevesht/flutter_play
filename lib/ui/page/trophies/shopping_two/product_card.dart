@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_uikit/model/product.dart';
-import 'package:flutter_uikit/ui/page/shopping/shopping_two/product_desc.dart';
+import 'package:flutter_uikit/ui/page/trophies/shopping_two/product_desc.dart';
 import 'package:flutter_uikit/utils/uidata.dart';
 
 class ProductCard extends StatefulWidget {

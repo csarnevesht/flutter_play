@@ -9,6 +9,7 @@ class UIData {
   static const String notFoundRoute = "/No Search Result";
   static const String settingsOneRoute = "/Device Settings";
   static const String baseball2019Route = "/Baseball 2019";
+  static const String baseball2018Route = "/Baseball 2018";
   static const String shoppingTwoRoute = "/Shopping Details";
   static const String shoppingThreeRoute = "/Product Details";
 

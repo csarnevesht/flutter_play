@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_uikit/inherited/product_provider.dart';
 import 'package:flutter_uikit/logic/bloc/product_bloc.dart';
 import 'package:flutter_uikit/model/product.dart';
-import 'package:flutter_uikit/ui/page/shopping/shopping_two/product_detail_widgets.dart';
+import 'package:flutter_uikit/ui/page/trophies/shopping_two/product_detail_widgets.dart';
 import 'package:flutter_uikit/ui/widgets/login_background.dart';
 
 class ProductDetailPage extends StatelessWidget {

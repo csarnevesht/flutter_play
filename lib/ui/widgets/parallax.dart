@@ -3,7 +3,6 @@
 
 /// [ParallaxImage] paints an image and moves it at a slower speed than the main
 /// scrolling content.
-library parallax_image;
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';

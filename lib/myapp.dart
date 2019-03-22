@@ -1,21 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:flutter_uikit/ui/page/dashboard/dashboard_one.page.dart';
-import 'package:flutter_uikit/ui/page/dashboard/dashboard_two_page.dart';
 import 'package:flutter_uikit/ui/page/home_page.dart';
-import 'package:flutter_uikit/ui/page/login/login_page.dart';
-import 'package:flutter_uikit/ui/page/login/login_two_page.dart';
 import 'package:flutter_uikit/ui/page/notfound/notfound_page.dart';
-import 'package:flutter_uikit/ui/page/payment/credit_card_page.dart';
-import 'package:flutter_uikit/ui/page/payment/payment_success_page.dart';
-import 'package:flutter_uikit/ui/page/profile/profile_one_page.dart';
-import 'package:flutter_uikit/ui/page/profile/profile_two_page.dart';
-import 'package:flutter_uikit/ui/page/settings/settings_one_page.dart';
-import 'package:flutter_uikit/ui/page/shopping/product_detail_page.dart';
-import 'package:flutter_uikit/ui/page/shopping/shopping_details_page.dart';
-import 'package:flutter_uikit/ui/page/shopping/baseball_2019_page.dart';
-import 'package:flutter_uikit/ui/page/timeline/timeline_one_page.dart';
-import 'package:flutter_uikit/ui/page/timeline/timeline_two_page.dart';
+import 'package:flutter_uikit/ui/page/trophies/product_detail_page.dart';
+import 'package:flutter_uikit/ui/page/trophies/shopping_details_page.dart';
+import 'package:flutter_uikit/ui/page/trophies/baseball_2019_page.dart';
+import 'package:flutter_uikit/ui/page/trophies/baseball_2018_page.dart';
 import 'package:flutter_uikit/utils/translations.dart';
 import 'package:flutter_uikit/utils/uidata.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -46,6 +36,7 @@ class MyApp extends StatelessWidget {
         UIData.homeRoute: (BuildContext context) => HomePage(),
         UIData.notFoundRoute: (BuildContext context) => NotFoundPage(),
         UIData.baseball2019Route: (BuildContext context) => Baseball2019Page(),
+        UIData.baseball2018Route: (BuildContext context) => Baseball2018Page(),
         UIData.shoppingTwoRoute: (BuildContext context) => ShoppingDetailsPage(),
         UIData.shoppingThreeRoute: (BuildContext context) => ProductDetailPage(),
       },
