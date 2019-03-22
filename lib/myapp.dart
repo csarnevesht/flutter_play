@@ -13,7 +13,7 @@ import 'package:flutter_uikit/ui/page/profile/profile_two_page.dart';
 import 'package:flutter_uikit/ui/page/settings/settings_one_page.dart';
 import 'package:flutter_uikit/ui/page/shopping/product_detail_page.dart';
 import 'package:flutter_uikit/ui/page/shopping/shopping_details_page.dart';
-import 'package:flutter_uikit/ui/page/shopping/baseball_one_page.dart';
+import 'package:flutter_uikit/ui/page/shopping/baseball_2019_page.dart';
 import 'package:flutter_uikit/ui/page/timeline/timeline_one_page.dart';
 import 'package:flutter_uikit/ui/page/timeline/timeline_two_page.dart';
 import 'package:flutter_uikit/utils/translations.dart';
@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
       routes: <String, WidgetBuilder>{
         UIData.homeRoute: (BuildContext context) => HomePage(),
         UIData.notFoundRoute: (BuildContext context) => NotFoundPage(),
-        UIData.baseballOneRoute: (BuildContext context) => BaseballOnePage(),
+        UIData.baseball2019Route: (BuildContext context) => Baseball2019Page(),
         UIData.shoppingTwoRoute: (BuildContext context) => ShoppingDetailsPage(),
         UIData.shoppingThreeRoute: (BuildContext context) => ProductDetailPage(),
       },

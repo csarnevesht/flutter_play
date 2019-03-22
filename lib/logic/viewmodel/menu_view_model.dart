@@ -18,12 +18,20 @@ class MenuViewModel {
       Menu(
           title: "Baseball",
           menuColor: Color(0xffc8c4bd),
-          icon: Icons.shopping_cart,
           image: UIData.shoppingImage,
           items: [
             "Baseball 2019",
             "Baseball 2018",
             "Baseball 2017"
+          ]),
+      Menu(
+          title: "Basketball",
+          menuColor: Color(0xffc8c4bd),
+          image: UIData.shoppingImage,
+          items: [
+            "Basketball 2019",
+            "Basketball 2018",
+            "Basketball 2017"
           ]),
 //      Menu(
 //          title: "Login",

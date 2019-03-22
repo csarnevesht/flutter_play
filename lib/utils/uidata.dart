@@ -8,7 +8,7 @@ class UIData {
   static const String homeRoute = "/home";
   static const String notFoundRoute = "/No Search Result";
   static const String settingsOneRoute = "/Device Settings";
-  static const String baseballOneRoute = "/Baseball 2019";
+  static const String baseball2019Route = "/Baseball 2019";
   static const String shoppingTwoRoute = "/Shopping Details";
   static const String shoppingThreeRoute = "/Product Details";
 
@@ -25,7 +25,7 @@ class UIData {
 
   //images
   static const String imageDir = "assets/images";
-  static const String pkImage = "$imageDir/pk.jpg";
+  static const String falconsImage = "$imageDir/falcons.png";
   static const String profileImage = "$imageDir/profile.jpg";
   static const String blankImage = "$imageDir/blank.jpg";
   static const String dashboardImage = "$imageDir/dashboard.jpg";

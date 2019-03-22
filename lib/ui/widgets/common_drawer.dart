@@ -17,7 +17,7 @@ class CommonDrawer extends StatelessWidget {
               "mtechviral@gmail.com",
             ),
             currentAccountPicture: new CircleAvatar(
-              backgroundImage: new AssetImage(UIData.pkImage),
+              backgroundImage: new AssetImage(UIData.falconsImage),
             ),
           ),
           new ListTile(

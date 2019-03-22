@@ -114,6 +114,7 @@ class HomePage extends StatelessWidget {
         child: Scaffold(key: _scaffoldState, body: bodySliverList()),
       );
 
+  // CAROLINA: This will call MenuViewModel() which has all the menu items for sports: Baseball, ...
   Widget bodySliverList() {
     MenuBloc menuBloc = MenuBloc();
     return StreamBuilder<List<Menu>>(
@@ -140,13 +141,13 @@ class HomePage extends StatelessWidget {
             children: <Widget>[
               CircleAvatar(
                 radius: 25.0,
-                backgroundImage: AssetImage(UIData.pkImage),
+                backgroundImage: AssetImage(UIData.falconsImage),
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: ProfileTile(
-                  title: "Pawan Kumar",
-                  subtitle: "mtechviral@gmail.com",
+                  title: "SHS Trophies",
+                  subtitle: "",
                   textColor: Colors.white,
                 ),
               )
@@ -286,6 +287,7 @@ class HomePage extends StatelessWidget {
       );
 
   Widget homeBodyIOS(BuildContext context) {
+    // CAROLINA: This will call MenuViewModel() which has all the menu items for sports: Baseball, ...
     MenuBloc menuBloc = MenuBloc();
     return StreamBuilder<List<Menu>>(
         stream: menuBloc.menuItems,
@@ -339,6 +341,7 @@ class HomePage extends StatelessWidget {
     deviceSize = MediaQuery.of(context).size;
     return defaultTargetPlatform == TargetPlatform.iOS
         ? homeIOS(context)
+    // CAROLINA: This will call bodySliverList()
         : homeScaffold(context);
   }
 }
